@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    
+    
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 30px;    
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    
+    
+}
+
+.links  {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.container {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+    
+}
+
+.city {
+    border-radius: 20px;
+    width: 700px;
+    height: auto;
+    
+}
+
+#title {
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+#subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-weight: bold;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+}
+
+.info { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 50px;
+}
+
+
+.containers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 130px;
+}
+
+.con {
+    text-align: center;
+    max-width: 180px;
+}
+  
+.cards {
+    color: rgb(80, 80, 80);
+    text-align: center;
+    font-size: 18px;
+}
+
+.nature {
+    width: 180px;
+    height: auto;
+    border-radius: 15px;
+    border: 4px solid #3882f6;
+    
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    flex-direction: column;
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#name {
+ text-align: end;
+ font-weight: 900;
+ font-style: normal;
+}
+
+.card {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 15px;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #e5e7eb;
+}
+
+.second {
+    border: 2px solid #e5e7eb;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px;
+    width: 130px;
+    font-size: 16px;
+}
+
+#calltoaction {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#signup {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    padding: 30px;
+}

@@ -1,0 +1,2 @@
+CREDITS FOR GIF AUTHOR: https://pixabay.com/gifs/rain-lake-landscape-trees-3582/  copyright c susan-lu4esm
+CREDITS FOR CITY IMAGE AUTHOR: https://www.pexels.com/photo/people-on-bridge-with-background-of-city-1630442/ copyright c Norbert Kundrak

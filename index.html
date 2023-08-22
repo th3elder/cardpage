@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card WebPage</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="header">
-        <div> Header Logo </div>
+        <div><strong> Header Logo </strong></div>
         <div class="links">
         <a href="#">header link one</a>
         <a href="#">header link two</a>
@@ -16,36 +17,54 @@
     </div>
 
     <div class="container">
-        <title> This website is awsome </title>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button> Sign Up </button>
-        <img src="./img/city.jpeg" alt="city">
+    <div class="left">
+        <div id="title"> This website is <br> awesome </div>
+        <div id="subtext">This website has some subtext that goes here under the <br>  main title. It's a smaller font and the color is lower <br> contrast.</div>
+        <button class="first"> Sign Up </button> 
+    </div>
+        <img class="city" src="./img/city.jpeg" alt="city">
     </div>
 
     <div class="info">
         <div> Some random information.</div>
-        <div class="card">this is some subtext under an illustration or image</div> 
-            <img src="./img/nature.gif" alt="nature">
-        <div class="card">this is some subtext under an illustration or image</div> 
-            <img src="./img/nature.gif" alt="nature">
-        <div class="card">this is some subtext under an illustration or image</div> 
-            <img src="./img/nature.gif" alt="nature">
-        <div class="card">this is some subtext under an illustration or image</div> 
-            <img src="./img/nature.gif" alt="nature">
+    </div>
+       
+    <div class="containers">
+        <div class="con">
+            <img class="nature" src="./img/nature.gif" alt="nature">
+            <div class="cards">this is some subtext under an illustration or image</div> 
+        </div>
+        <div class="con">
+            <img class="nature" src="./img/nature.gif" alt="nature">
+            <div class="cards">this is some subtext under an illustration or image</div> 
+        </div>
+        <div class="con">
+            <img class="nature" src="./img/nature.gif" alt="nature">
+            <div class="cards">this is some subtext under an illustration or image</div> 
+        </div>
+        <div class="con">
+            <img class="nature" src="./img/nature.gif" alt="nature">
+            <div class="cards">this is some subtext under an illustration or image</div> 
+        </div>
     </div>
 
 
     <div class="quote">
-        <p> This is and inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or mayble people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <p> -Thor, God of Thunder </p>
+        <p> This is and inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+       
+        <div id="name"> -Thor, God of Thunder   </div>
+       
     </div>
 
 
 
-    <div class="signup">
-        <p> Call to action! It's time! </p>
-        <p> Sign up for our product by clicking that button right over there! </p>
-        <button> Sign up </button>
+    <div class="card">
+        <div class="leftcard"> 
+            <div id="calltoaction"> Call to action! It's time!</div>
+            <div id="signup"> Sign up for our product by clicking that button right over there! </div>
+        </div> 
+        <button class="second"> Sign up </button>
+       
     </div>
 
     <div class="footer">
